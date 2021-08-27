@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css"> <!--auto pop, "link:css"-->
     <script src="jquery.js"></script>
     <script src="client.js"></script>
 </head>
@@ -20,15 +21,18 @@
                   <!-- td is a column in our row -->
                   <th>City</th>
                   <th>Temperature</th>
+                  <th>Actions</th>
              </tr>
         </thead>
          <!-- Our Data --> <!-- Table Body -->
          <tbody id="city-table-body">
-              <!-- th is a row -->
-              <tr>
-                  <td>Minneapolis</td>
-                  <td>75°</td> <!-- option shift 8 for °-->
-              </tr>
+             <!-- th is a row -->
+            <!-- the table below is only a place holder, delete when done -->
+             <tr>
+                <td>Minneapolis</td>
+                <td>75°</td> <!-- option shift 8 for °-->
+                <td><button>Clear Background</button></td>   <!-- fix -->
+            </tr>
          </tbody>
     </table>   
 </body>
