@@ -14,8 +14,8 @@ function appendCityToTable() {
 
     $('#city-table-body').append(`
     <tr>
-        <td>$(cityName)<td>
-        <td>$(temperature)</td>
+        <td>${cityName}<td>
+        <td>${temperature}</td>
     </tr>
     `);
 }//end appendCityToTable
